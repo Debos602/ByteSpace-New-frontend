@@ -27,9 +27,9 @@ function Header() {
   };
 
   return (
-    <header className="w-full bg-persian-800">
+    <header className="w-full bg-persian-800 bg-grid">
       {/* Desktop layout - preserved exactly */}
-      <div className="hidden md:flex mx-auto h-[120px] w-full max-w-[1198px] items-end justify-between pt-[35px] pb-[47px] px-[120px]">
+      <div className="hidden md:flex mx-auto h-[120px] w-full max-w-[1198px]   items-end justify-between pt-[35px] pb-[47px]">
         <NavLink to="/">
           <img src={logo} alt="ByteSpace Logo" />
         </NavLink>
